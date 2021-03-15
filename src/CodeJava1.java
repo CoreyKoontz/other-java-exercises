@@ -1,6 +1,6 @@
-public class CodeJava {
+public class CodeJava1 {
 
-    //TODO------------- Anatomy of a Java Program ----------------------------------------
+    //TODO------------- Anatomy of a Java Program (Basic Structure) ----------------------------------------
 
     // Function:
     // - A function is a block of code that performs a task
@@ -35,7 +35,7 @@ public class CodeJava {
 
     // - Now the functions that are described between these curly braces belong to this class.
     // * More accurately, these functions (inside a class) are known as methods of that class.
-    // - All these classes and method require and access modifier.
+    // - All these classes and method require a access modifier.
     // * An access modifier is a special keyword that determines if other classes and methods
     //   in this program can access these classes and methods.
     // - Most of the time we will be using the public access modifier, so that goes in front
@@ -51,8 +51,27 @@ public class CodeJava {
     // CLasses are denoted with PascalCase (the "Main" class).
     // Methods are denoted in camelCase (the "main" method).
 
+    // * Package are used to organize and group out classes.
+    // - Some programs require thousands of classes and packages help us keep these organized.
+    // - By convention, the base package name is your projects domain name in reverse. exp: com.google
+
+    // Variables in Java:
+    // We use variables to temporarily store data.
 
 
+
+
+//TODO========================= Java II ================================================
+
+    // Problem Solving:
+    // - Process of defining a problem, identifying  and comparing different solutions, and
+    //   picking onr that best solves the problem with respect to the context and constraints.
+
+    // Benefits of OOP:
+    // Reduced complexity by breaking things down into smaller chunks.
+    // Easier maintenance. If an object is not working we dont have to rip the whole program apart, just fix the object.
+    // Code Reuse. We can reuse a lot of the code we write.
+    // Faster Development. Because of all the benefits listed above we can develop much faster.
 
 
 }
