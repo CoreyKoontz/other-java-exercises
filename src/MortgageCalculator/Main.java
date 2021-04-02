@@ -11,17 +11,11 @@ public class Main {
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
 
-        int userPrinciple = 0;
-        float userAnnualInterestRate;
-        int userPeriodInYears;
+        int userPrinciple = (int) readNumber("Principal: ", 1_000, 1_000_000);
 
-        // Getting user input: ------------------------------------------
+        float userAnnualInterestRate = (float) readNumber("Annual Interest Rate: ", 1, 30);
 
-        userPrinciple = (int) readNumber("Principal: ", 1_000, 1_000_000);
-
-        userAnnualInterestRate = (float) readNumber("Annual Interest Rate: ", 1, 30);
-
-        userPeriodInYears = (int) readNumber("Period (Years): ", 1, 30);
+        byte userPeriodInYears = (byte) readNumber("Period (Years): ", 1, 30);
 
         float monthlyInterestRate = (userAnnualInterestRate / PERCENT) / MONTHS_IN_YEAR;  // r = monthly interest rate
 
@@ -42,6 +36,7 @@ public class Main {
 
     }
 
+    // Method for getting user input: ------------------------------------------
     public static double readNumber(String prompt, double min, double max) {
         Scanner sc = new Scanner(System.in);
         double value;
