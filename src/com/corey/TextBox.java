@@ -1,6 +1,6 @@
 package com.corey;
 
-public class TextBox {
+public class TextBox extends UIControl{
 
     public String text= ""; // Field
 
